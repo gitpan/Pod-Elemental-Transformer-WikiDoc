@@ -1,0 +1,12 @@
+
+
+This archive contains the distribution Pod-Elemental-Transformer-WikiDoc, version
+0.093000:
+
+  a transformer to replace "wikidoc" data regions with Pod5 elements
+
+This software is copyright (c) 2009 by Ricardo SIGNES.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+

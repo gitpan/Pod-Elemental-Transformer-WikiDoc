@@ -1,0 +1,24 @@
+{
+   "resources" : {
+      "repository" : "http://github.com/rjbs/pod-elemental-transformer-wikidoc"
+   },
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "generated_by" : "Dist::Zilla version 1.092990",
+   "version" : "0.093000",
+   "name" : "Pod-Elemental-Transformer-WikiDoc",
+   "author" : [
+      "Ricardo SIGNES <rjbs@cpan.org>"
+   ],
+   "license" : "perl",
+   "requires" : {
+      "Pod::Elemental" : "0.092941",
+      "namespace::autoclean" : "0",
+      "Pod::WikiDoc" : "0.18",
+      "Moose::Autobox" : "0.10",
+      "Moose" : "0"
+   },
+   "abstract" : "a transformer to replace \"wikidoc\" data regions with Pod5 elements"
+}
