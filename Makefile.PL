@@ -9,7 +9,7 @@ WriteMakefile(
   NAME      => 'Pod::Elemental::Transformer::WikiDoc',
   AUTHOR    => "Ricardo\ SIGNES\ \<rjbs\@cpan\.org\>",
   ABSTRACT  => "a\ transformer\ to\ replace\ \"wikidoc\"\ data\ regions\ with\ Pod5\ elements",
-  VERSION   => '0.093000',
+  VERSION   => '0.093001',
   EXE_FILES => [ qw() ],
   (eval { ExtUtils::MakeMaker->VERSION(6.31) } ? (LICENSE => 'perl') : ()),
   PREREQ_PM    => {

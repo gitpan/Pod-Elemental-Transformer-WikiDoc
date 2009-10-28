@@ -1,5 +1,5 @@
 package Pod::Elemental::Transformer::WikiDoc;
-our $VERSION = '0.093000';
+our $VERSION = '0.093001';
 
 
 use Moose;
@@ -26,7 +26,7 @@ sub transform_node {
   my ($self, $node) = @_;
   my $children = $node->children;
 
-  PASS: for (my $i = 0; $i < $children->length - 1; $i++) {
+  PASS: for (my $i = 0; $i < $children->length; $i++) {
     my $para = $children->[$i];
     next unless $para->isa('Pod::Elemental::Element::Pod5::Region')
          and    ! $para->is_pod
@@ -65,7 +65,7 @@ Pod::Elemental::Transformer::WikiDoc - a transformer to replace "wikidoc" data r
 
 =head1 VERSION
 
-version 0.093000
+version 0.093001
 
 =head1 SYNOPSIS
 

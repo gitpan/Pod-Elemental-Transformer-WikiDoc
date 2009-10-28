@@ -1,5 +1,5 @@
 package Pod::Weaver::Plugin::WikiDoc;
-our $VERSION = '0.093000';
+our $VERSION = '0.093001';
 
 
 use Moose;
@@ -28,7 +28,7 @@ Pod::Weaver::Plugin::WikiDoc - allow wikidoc-format regions to be translated dur
 
 =head1 VERSION
 
-version 0.093000
+version 0.093001
 
 =head1 OVERVIEW
 

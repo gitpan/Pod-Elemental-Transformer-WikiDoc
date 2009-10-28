@@ -7,7 +7,7 @@
       "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
    },
    "generated_by" : "Dist::Zilla version 1.092990",
-   "version" : "0.093000",
+   "version" : "0.093001",
    "name" : "Pod-Elemental-Transformer-WikiDoc",
    "author" : [
       "Ricardo SIGNES <rjbs@cpan.org>"
