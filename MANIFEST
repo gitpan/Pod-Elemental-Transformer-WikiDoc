@@ -2,11 +2,11 @@ Changes
 LICENSE
 MANIFEST
 META.json
+META.yml
 Makefile.PL
 README
 dist.ini
 lib/Pod/Elemental/Transformer/WikiDoc.pm
 lib/Pod/Weaver/Plugin/WikiDoc.pm
-t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/simple.t

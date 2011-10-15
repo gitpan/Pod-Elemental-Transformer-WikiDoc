@@ -1,7 +1,7 @@
 package Pod::Elemental::Transformer::WikiDoc;
-our $VERSION = '0.093001';
-
-
+{
+  $Pod::Elemental::Transformer::WikiDoc::VERSION = '0.093002';
+}
 use Moose;
 with 'Pod::Elemental::Transformer';
 # ABSTRACT: a transformer to replace "wikidoc" data regions with Pod5 elements
@@ -65,7 +65,7 @@ Pod::Elemental::Transformer::WikiDoc - a transformer to replace "wikidoc" data r
 
 =head1 VERSION
 
-version 0.093001
+version 0.093002
 
 =head1 SYNOPSIS
 
@@ -129,11 +129,11 @@ WikiDoc.  By default, the transformer will look for regions of the format
 
 =head1 AUTHOR
 
-  Ricardo SIGNES <rjbs@cpan.org>
+Ricardo SIGNES <rjbs@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2009 by Ricardo SIGNES.
+This software is copyright (c) 2011 by Ricardo SIGNES.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

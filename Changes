@@ -1,5 +1,8 @@
 Revision history for Pod-Elemental-Transformer-WikiDoc
 
+0.093002  2011-10-15 18:17:54 Asia/Tokyo
+          repackage to add META.yml
+
 0.093001  2009-10-27
           fix fencepost error that prevent last-position region from working
 
