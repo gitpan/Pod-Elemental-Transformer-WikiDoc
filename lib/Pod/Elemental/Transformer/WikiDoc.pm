@@ -1,6 +1,6 @@
 package Pod::Elemental::Transformer::WikiDoc;
 {
-  $Pod::Elemental::Transformer::WikiDoc::VERSION = '0.093002';
+  $Pod::Elemental::Transformer::WikiDoc::VERSION = '0.093003';
 }
 use Moose;
 with 'Pod::Elemental::Transformer';
@@ -57,6 +57,7 @@ sub transform_node {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -65,7 +66,7 @@ Pod::Elemental::Transformer::WikiDoc - a transformer to replace "wikidoc" data r
 
 =head1 VERSION
 
-version 0.093002
+version 0.093003
 
 =head1 SYNOPSIS
 
@@ -133,10 +134,9 @@ Ricardo SIGNES <rjbs@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Ricardo SIGNES.
+This software is copyright (c) 2013 by Ricardo SIGNES.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
